@@ -68,7 +68,13 @@ npm run build
 
 ### 远程管理
 
-当你从非 localhost 的浏览器访问时，服务端通常需要开启远程管理（例如 `allow-remote-management: true`）。  
+当你从非 localhost 的浏览器访问时，服务端通常需要开启远程管理（例如 `allow-remote-management: true`）。
+
+## 新增功能（基于原项目基础上新增）
+
+- 一键检测限额并停用
+- 一键检测额度恢复并启用
+- 一键检测无效并删除
 
 ## 功能一览（按页面对应）
 

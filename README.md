@@ -68,8 +68,13 @@ This is different from the proxy `api-keys` you manage inside the UI (those are 
 
 ### Remote management
 
-If you connect from a non-localhost browser, the server must allow remote management (e.g. `allow-remote-management: true`).  
-See `api.md` for the full authentication rules, server-side limits, and edge cases.
+If you connect from a non-localhost browser, the server must allow remote management (e.g. `allow-remote-management: true`).
+
+## Newly added features (on top of the original project)
+
+- One-click detect exhausted quotas and disable
+- One-click detect quota recovery and re-enable
+- One-click detect invalid entries and delete
 
 ## What you can manage (mapped to the UI pages)
 
