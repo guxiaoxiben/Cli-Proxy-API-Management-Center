@@ -1,11 +1,19 @@
-# CLI Proxy API Management Center
+# CLI Proxy API Management Center (Enhanced Version)
+
+## Newly added features (based on the original project)
+
+- One-click detect exhausted quotas and disable(codex)
+- One-click detect quota recovery and re-enable(codex)
+- One-click detect invalid entries and delete(codex)
+
+## Original project introduction
 
 A single-file Web UI (React + TypeScript) for operating and troubleshooting the **CLI Proxy API** via its **Management API** (config, credentials, logs, and usage).
 
 [中文文档](README_CN.md)
 
-**Main Project**: https://github.com/router-for-me/CLIProxyAPI  
-**Example URL**: https://remote.router-for.me/  
+**Main Project**: https://github.com/router-for-me/CLIProxyAPI
+**Example URL**: https://remote.router-for.me/
 **Minimum Required Version**: ≥ 6.8.0 (recommended ≥ 6.8.15)
 
 Since version 6.0.19, the Web UI ships with the main program; access it via `/management.html` on the API port once the service is running.
@@ -69,12 +77,6 @@ This is different from the proxy `api-keys` you manage inside the UI (those are 
 ### Remote management
 
 If you connect from a non-localhost browser, the server must allow remote management (e.g. `allow-remote-management: true`).
-
-## Newly added features (on top of the original project)
-
-- One-click detect exhausted quotas and disable
-- One-click detect quota recovery and re-enable
-- One-click detect invalid entries and delete
 
 ## What you can manage (mapped to the UI pages)
 
