@@ -434,7 +434,7 @@ export function useAuthFilesData(options: UseAuthFilesDataOptions): UseAuthFiles
   const handleDetectCodexInvalidDelete = useCallback(
     (targets: AuthFileItem[]) => {
       const candidates = targets.filter(
-        (file) => isCodexFile(file) && !isRuntimeOnlyAuthFile(file) && !file.disabled
+        (file) => isCodexFile(file) && !isRuntimeOnlyAuthFile(file)
       );
 
       if (candidates.length === 0) {
